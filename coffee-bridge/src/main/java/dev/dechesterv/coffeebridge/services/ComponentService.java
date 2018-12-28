@@ -2,8 +2,6 @@ package dev.dechesterv.coffeebridge.services;
 
 import dev.dechesterv.coffeemodels.agent.ComponentState;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -12,8 +10,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
+@Slf4j
 public class ComponentService {
-    private static final Logger logger = LoggerFactory.getLogger(ComponentService.class);
+
     private Map<Long, ComponentState> cache = new HashMap<>();
 
     @Value("${component.check.period:10000}") //10 sec
@@ -27,8 +26,8 @@ public class ComponentService {
         if (!cache.values().contains(componentState) && componentState.getId() == null) {
             componentState.setId(key);
             cache.put(key, componentState);
-            logger.info("Register component: " + componentState.toString());
-            logger.info("Update state: " + cache);
+            log.info("Register component: " + componentState.toString());
+            log.info("Update state: " + cache);
         }
         else
             return -1;
@@ -37,11 +36,11 @@ public class ComponentService {
 
     public void removeComponent(Long id) {
         cache.remove(id);
-        logger.info("Remove component with id: " + id);
-        logger.info("Update state: " + cache);
+        log.info("Remove component with id: " + id);
+        log.info("Update state: " + cache);
     }
 
-    @Scheduled(fixedRate = 5000, initialDelay = 5000) //5 sec
+    @Scheduled(fixedRate = 5000) //5 sec
     public void checkHealth() {
         List<Long> ids = showAllComponents().stream()
                 .map(ComponentState::getId)

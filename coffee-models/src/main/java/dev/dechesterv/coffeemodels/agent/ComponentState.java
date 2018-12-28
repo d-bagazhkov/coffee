@@ -1,28 +1,18 @@
 package dev.dechesterv.coffeemodels.agent;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 public class ComponentState {
 
     private Long id;
     private String name;
     private String host;
     private int port;
+    private boolean status;
 
-    @Override
-    public String toString() {
-        return "ComponentState{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", host='" + host + '\'' +
-                ", port=" + port +
-                '}';
-    }
 }

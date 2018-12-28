@@ -1,0 +1,6 @@
+db:
+  dumb:
+    enabled: true
+    count:
+      articles: 10
+      consumers: 40
