@@ -1,8 +1,6 @@
 package dom.dechesterv.shadowdatabase.controller;
 
-import dev.dechesterv.coffeemodels.entity.Article;
-import dev.dechesterv.coffeemodels.entity.Consumer;
-import dom.dechesterv.shadowdatabase.service.ArticleService;
+import dom.dechesterv.coffeemodels.entity.Consumer;
 import dom.dechesterv.shadowdatabase.service.ConsumerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

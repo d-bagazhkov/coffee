@@ -1,4 +1,4 @@
-package dev.dechesterv.coffeemodels.agent;
+package dom.dechesterv.coffeemodels.agent;
 
 import lombok.*;
 

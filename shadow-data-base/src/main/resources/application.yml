@@ -4,3 +4,11 @@ db:
     count:
       articles: 10
       consumers: 40
+
+server:
+  port: 7790
+application:
+  name: shadow-data-base
+bridge:
+  host: 127.0.0.1
+  port: 7700

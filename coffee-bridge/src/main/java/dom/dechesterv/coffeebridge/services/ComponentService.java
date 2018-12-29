@@ -1,6 +1,6 @@
-package dev.dechesterv.coffeebridge.services;
+package dom.dechesterv.coffeebridge.services;
 
-import dev.dechesterv.coffeemodels.agent.ComponentState;
+import dom.dechesterv.coffeemodels.agent.ComponentState;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -21,7 +21,7 @@ public class ComponentService {
     //@Value("${component.check.delay:5000}") //5 sec
     //private Long delay;
 
-    public long addComponent(ComponentState componentState) {
+    public void addComponent(ComponentState componentState) {
         long key = new Date().getTime();
         if (!cache.values().contains(componentState) && componentState.getId() == null) {
             componentState.setId(key);
@@ -29,9 +29,6 @@ public class ComponentService {
             log.info("Register component: " + componentState.toString());
             log.info("Update state: " + cache);
         }
-        else
-            return -1;
-        return key;
     }
 
     public void removeComponent(Long id) {

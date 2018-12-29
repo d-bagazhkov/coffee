@@ -1,6 +1,6 @@
 package dom.dechesterv.shadowdatabase.dao;
 
-import dev.dechesterv.coffeemodels.entity.Article;
+import dom.dechesterv.coffeemodels.entity.Article;
 import dom.dechesterv.shadowdatabase.config.DumbState;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

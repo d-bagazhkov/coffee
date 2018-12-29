@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bridge-connector" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/coffee-bridge" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/coffee-models" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/coffee-utils" charset="UTF-8" />

@@ -1,7 +1,7 @@
-package dev.dechesterv.coffeebridge.controllers;
+package dom.dechesterv.coffeebridge.controllers;
 
-import dev.dechesterv.coffeebridge.services.ComponentService;
-import dev.dechesterv.coffeemodels.agent.ComponentState;
+import dom.dechesterv.coffeebridge.services.ComponentService;
+import dom.dechesterv.coffeemodels.agent.ComponentState;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,8 +14,8 @@ public class ComponentController {
     private ComponentService componentService;
 
     @PostMapping("/add")
-    public long add(@RequestBody ComponentState componentState) {
-        return componentService.addComponent(componentState);
+    public void add(@RequestBody ComponentState componentState) {
+        componentService.addComponent(componentState);
     }
 
     @GetMapping("/remove/{id}")

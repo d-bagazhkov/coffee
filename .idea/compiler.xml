@@ -12,12 +12,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bridge-connector" target="1.8" />
+      <module name="coffee-connector" target="1.8" />
       <module name="coffee-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bridge-connector" options="-parameters" />
       <module name="coffee-bridge" options="-parameters" />
+      <module name="coffee-connector" options="-parameters" />
       <module name="coffee-models" options="-parameters" />
       <module name="coffee-utils" options="-parameters" />
       <module name="shadow-data-base" options="-parameters" />

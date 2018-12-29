@@ -1,8 +1,6 @@
 package dom.dechesterv.shadowdatabase.service;
 
-import dev.dechesterv.coffeemodels.entity.Article;
-import dev.dechesterv.coffeemodels.entity.Consumer;
-import dom.dechesterv.shadowdatabase.dao.ArticleDao;
+import dom.dechesterv.coffeemodels.entity.Consumer;
 import dom.dechesterv.shadowdatabase.dao.ConsumerDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
