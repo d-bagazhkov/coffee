@@ -1,62 +1,109 @@
 package dom.dechesterv.coffeebridge.services;
 
 import dom.dechesterv.coffeemodels.agent.ComponentState;
-import lombok.extern.slf4j.Slf4j;
+import dom.dechesterv.coffeemodels.agent.KeywordHealthCheck;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 import java.util.stream.Collectors;
 
+import static dom.dechesterv.coffeemodels.agent.KeywordHealthCheck.ENABLED;
+
 @Service
-@Slf4j
 public class ComponentService {
 
-    private Map<Long, ComponentState> cache = new HashMap<>();
+    private List<ComponentState> cache = new ArrayList<>();
+    private List<ComponentState> listenerUnstableState = new ArrayList<>();
 
-    @Value("${component.check.period:10000}") //10 sec
-    private Long period;
+    private RestTemplate restTemplate;
 
-    //@Value("${component.check.delay:5000}") //5 sec
-    //private Long delay;
+    @Value("${component.garbageRemoval.delay:12000}")
+    private Long garbageRemovalDelay;
 
     public void addComponent(ComponentState componentState) {
-        long key = new Date().getTime();
-        if (!cache.values().contains(componentState) && componentState.getId() == null) {
-            componentState.setId(key);
-            cache.put(key, componentState);
-            log.info("Register component: " + componentState.toString());
-            log.info("Update state: " + cache);
+        if (!cache.contains(componentState) && componentState.getId() == null) {
+            componentState.setId(cache.size());
+            componentState.setDate(new Date());
+            componentState.setLastStatusChange(componentState.getDate());
+            cache.add(componentState);
         }
     }
 
-    public void removeComponent(Long id) {
-        cache.remove(id);
-        log.info("Remove component with id: " + id);
-        log.info("Update state: " + cache);
+    public void removeComponent(Integer id) {
+        removeComponentFromCache(id);
     }
 
-    @Scheduled(fixedRate = 5000) //5 sec
+    @Scheduled(fixedDelayString = "${component.check.delay:1500}")
     public void checkHealth() {
-        List<Long> ids = showAllComponents().stream()
-                .map(ComponentState::getId)
-                .collect(Collectors.toList());
-        ids.forEach(id -> {
-            if (checkTime(id))
-                removeComponent(id);
+        cache.forEach(cs -> {
+            KeywordHealthCheck check;
+            if ((check = getComponentStatus(cs.getHost(), cs.getPort())) != null
+                    && ENABLED.getKeyword().equals(check.getKeyword()))
+                removeComponentFromListener(cs.getId());
+            else if (listenerUnstableState.contains(cs)) {
+                if (cs.getLastStatusChange().getTime() + garbageRemovalDelay < new Date().getTime()) {
+                    removeComponentFromCache(cs.getId());
+                    removeComponentFromListener(cs.getId());
+                }
+            } else {
+                cs.setLastStatusChange(new Date());
+                listenerUnstableState.add(cs);
+            }
         });
     }
 
-    private boolean checkTime(Long t) {
-        return t + period < new Date().getTime();
+    private void removeComponentFromListener(Integer idComponent) {
+        listenerUnstableState = listenerUnstableState.stream()
+                .filter(l -> !l.getId().equals(idComponent))
+                .collect(Collectors.toList());
     }
 
-    public List<ComponentState> showAllComponents() {
-        return new ArrayList<>(cache.values());
+    private void removeComponentFromCache(Integer idComponent) {
+        cache = cache.stream()
+                .filter(l -> !l.getId().equals(idComponent))
+                .collect(Collectors.toList());
     }
 
-    public ComponentState showComponent(Long id) {
-        return cache.get(id);
+    public List<ComponentState> getAllComponents() {
+        return cache;
+    }
+
+    public ComponentState getComponent(Integer id) {
+        return getComponentState(id);
+    }
+
+    private ComponentState getComponentState(Integer id) {
+        return cache.stream()
+                .filter(c -> c.getId().equals(id))
+                .findFirst()
+                .orElse(null);
+    }
+
+    private KeywordHealthCheck getComponentStatus(String host, Integer port) {
+        return getComponentStatus(host, port, "/health/check");
+    }
+
+    private KeywordHealthCheck getComponentStatus(String host, Integer port, String path) {
+        KeywordHealthCheck keyword = null;
+        try {
+            keyword = restTemplate.postForObject(getAbsoluteUrl(host, port, path), KeywordHealthCheck.HEALTH_CHECK, KeywordHealthCheck.class);
+        } catch (Exception ignored) {
+        }
+        return keyword;
+    }
+
+    private String getAbsoluteUrl(String host, Integer port, String path) {
+        return "http://" + host + ":" + port + (path.startsWith("/") ? path : ("/" + path));
+    }
+
+    @Autowired
+    public void setRestTemplate(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
     }
 }

@@ -19,18 +19,18 @@ public class ComponentController {
     }
 
     @GetMapping("/remove/{id}")
-    public void remove(@PathVariable Long id) {
+    public void remove(@PathVariable Integer id) {
         componentService.removeComponent(id);
     }
 
     @GetMapping("/show/all")
     public List<ComponentState> showAllComponents() {
-        return componentService.showAllComponents();
+        return componentService.getAllComponents();
     }
 
     @GetMapping("/show/{id}")
-    public ComponentState showAllComponents(@PathVariable Long id) {
-        return componentService.showComponent(id);
+    public ComponentState showAllComponents(@PathVariable Integer id) {
+        return componentService.getComponent(id);
     }
 
     @Autowired
