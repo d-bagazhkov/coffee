@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="coffee-bridge" />
-        <module name="coffee-models" />
-        <module name="shadow-data-base" />
+        <module name="blog" />
+        <module name="bridge" />
+        <module name="initial" />
+        <module name="models" />
+        <module name="sdb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,12 +21,14 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blog" options="-parameters" />
+      <module name="bridge" options="-parameters" />
       <module name="bridge-connector" options="-parameters" />
-      <module name="coffee-bridge" options="-parameters" />
       <module name="coffee-connector" options="-parameters" />
-      <module name="coffee-models" options="-parameters" />
       <module name="coffee-utils" options="-parameters" />
-      <module name="shadow-data-base" options="-parameters" />
+      <module name="initial" options="-parameters" />
+      <module name="models" options="-parameters" />
+      <module name="sdb" options="-parameters" />
     </option>
   </component>
 </project>

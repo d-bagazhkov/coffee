@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/shadow-data-base/pom.xml" />
         <option value="$PROJECT_DIR$/coffee-models/pom.xml" />
+        <option value="$PROJECT_DIR$/coffee-blog/pom.xml" />
+        <option value="$PROJECT_DIR$/coffee-initial/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
