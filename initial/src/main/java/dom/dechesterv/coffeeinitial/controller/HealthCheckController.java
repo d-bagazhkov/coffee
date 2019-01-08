@@ -1,4 +1,4 @@
-package dom.dechesterv.shadowdatabase.controller;
+package dom.dechesterv.coffeeinitial.controller;
 
 import dom.dechesterv.coffeemodels.agent.KeywordHealthCheck;
 import org.springframework.web.bind.annotation.PostMapping;

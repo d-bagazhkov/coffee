@@ -15,7 +15,7 @@ public class ComponentState {
     private Integer id;
     private String name;
     private String host;
-    private int port;
+    private Integer port;
     private Date date;
     @JsonIgnore
     private Date lastStatusChange;

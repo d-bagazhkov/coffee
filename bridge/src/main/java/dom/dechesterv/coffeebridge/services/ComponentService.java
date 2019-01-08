@@ -27,12 +27,19 @@ public class ComponentService {
     private Long garbageRemovalDelay;
 
     public void addComponent(ComponentState componentState) {
-        if (!cache.contains(componentState) && componentState.getId() == null) {
-            componentState.setId(cache.size());
+        if (!cacheContains(componentState) && componentState.getId() == null) {
+            componentState.setId(cache.size() == 0 ? 0 : cache.get(cache.size() - 1).getId() + 1);
             componentState.setDate(new Date());
             componentState.setLastStatusChange(componentState.getDate());
             cache.add(componentState);
         }
+    }
+
+    private boolean cacheContains(ComponentState componentState) {
+        return cache.contains(componentState) || cache.stream()
+                .anyMatch(c -> c.getHost().equals(componentState.getHost()) &&
+                        c.getPort().equals(componentState.getPort()) &&
+                        c.getName().equals(componentState.getName()));
     }
 
     public void removeComponent(Integer id) {

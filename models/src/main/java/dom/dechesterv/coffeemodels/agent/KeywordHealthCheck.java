@@ -1,7 +1,7 @@
 package dom.dechesterv.coffeemodels.agent;
 
 public enum KeywordHealthCheck {
-    HEALTH_CHECK("HEALTH_CHECK"), ENABLED("ENABLED"), DISABLED("DISABLED");
+    HEALTH_CHECK("HEALTH_CHECK"), ENABLED("ENABLED"), DISABLED("DISABLED"), WARN("WARN");
 
     private String keyword;
 

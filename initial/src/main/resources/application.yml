@@ -1,0 +1,7 @@
+server:
+  port: 7710
+application:
+  name: initial
+bridge:
+  host: 127.0.0.1
+  port: 7700
