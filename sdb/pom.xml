@@ -38,7 +38,7 @@
         </dependency>
         <dependency>
             <groupId>dom.dechesterv</groupId>
-            <artifactId>coffee-models</artifactId>
+            <artifactId>models</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

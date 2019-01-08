@@ -2,71 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ac794a2-5d74-4a52-b22b-1bd0a434fd86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/java/dom/dechesterv/coffeeblog/CoffeeBlogApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/test/java/dom/dechesterv/coffeeblog/CoffeeBlogApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bridge/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bridge/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initial/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initial/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initial/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initial/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initial/src/main/java/dom/dechesterv/coffeeinitial/CoffeeInitialApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initial/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initial/src/test/java/dom/dechesterv/coffeeinitial/CoffeeInitialApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdb/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdb/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdb/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-bridge/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-bridge/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/blog/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-bridge/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-bridge/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/blog/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-bridge/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/blog/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-bridge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bridge/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-bridge/src/main/java/dom/dechesterv/coffeebridge/CoffeeBridgeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bridge/src/main/java/dom/dechesterv/coffeebridge/CoffeeBridgeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-bridge/src/main/java/dom/dechesterv/coffeebridge/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bridge/src/main/java/dom/dechesterv/coffeebridge/config/RestTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-bridge/src/main/java/dom/dechesterv/coffeebridge/controllers/ComponentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bridge/src/main/java/dom/dechesterv/coffeebridge/controllers/ComponentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-bridge/src/main/java/dom/dechesterv/coffeebridge/services/ComponentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bridge/src/main/java/dom/dechesterv/coffeebridge/services/ComponentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-bridge/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bridge/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/blog/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bridge/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bridge/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/models/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/models/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/models/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/src/main/java/dom/dechesterv/coffeemodels/agent/ComponentState.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/dom/dechesterv/coffeemodels/agent/ComponentState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/src/main/java/dom/dechesterv/coffeemodels/agent/KeywordHealthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/dom/dechesterv/coffeemodels/agent/KeywordHealthCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/src/main/java/dom/dechesterv/coffeemodels/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/dom/dechesterv/coffeemodels/entity/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/src/main/java/dom/dechesterv/coffeemodels/entity/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/dom/dechesterv/coffeemodels/entity/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/src/main/java/dom/dechesterv/coffeemodels/entity/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/dom/dechesterv/coffeemodels/entity/Permission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffee-models/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bridge/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/initial/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/initial/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/ShadowDataBaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/ShadowDataBaseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/config/DumbConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/config/DumbConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/config/DumbState.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/config/DumbState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/controller/HealthCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/controller/HealthCheckController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/dao/ArticleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/dao/ConsumerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/dao/ConsumerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/service/BridgeConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/service/BridgeConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/service/ConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow-data-base/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bridge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bridge/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffee.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sdb/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,6 +34,36 @@
       <FILTER>dom.dechesterv.coffeebridge.*</FILTER>
     </SUITE>
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="888170844">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -118,7 +89,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/initial/src/test/java/dom/dechesterv/coffeeinitial/CoffeeInitialApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -139,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-238">
               <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
@@ -148,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdb/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -157,8 +128,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/initial/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="-474">
               <caret line="5" column="23" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -166,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bridge/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="323">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -189,8 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/coffee-models/src/main/java/dev/dechesterv/coffeemodels/agent/Permision.java" />
-        <option value="$PROJECT_DIR$/coffee-models/src/main/java/dev/dechesterv/coffeemodels/agent/permission.java" />
         <option value="$PROJECT_DIR$/coffee-models/src/main/java/dev/dechesterv/coffeemodels/agent/Permission.java" />
         <option value="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/controller/UserContoller.java" />
         <option value="$PROJECT_DIR$/shadow-data-base/src/main/java/dom/dechesterv/shadowdatabase/config/DumbConfig.java" />
@@ -231,7 +209,6 @@
         <option value="$PROJECT_DIR$/coffee-models/src/main/java/dom/dechesterv/coffeemodels/agent/KeywordHealthCheck.java" />
         <option value="$PROJECT_DIR$/coffee-bridge/src/main/java/dom/dechesterv/coffeebridge/services/ComponentService.java" />
         <option value="$PROJECT_DIR$/coffee-blog/pom.xml" />
-        <option value="$PROJECT_DIR$/blog/pom.xml" />
         <option value="$PROJECT_DIR$/coffee-bridge/pom.xml" />
         <option value="$PROJECT_DIR$/coffee-initial/pom.xml" />
         <option value="$PROJECT_DIR$/coffee-models/pom.xml" />
@@ -240,8 +217,17 @@
         <option value="$PROJECT_DIR$/blog/src/test/java/dom/dechesterv/coffeeblog/CoffeeBlogApplicationTests.java" />
         <option value="$PROJECT_DIR$/initial/src/test/java/dom/dechesterv/coffeeinitial/CoffeeInitialApplicationTests.kt" />
         <option value="$PROJECT_DIR$/initial/src/test/java/dom/dechesterv/coffeeinitial/CoffeeInitialApplicationTests.java" />
+        <option value="$PROJECT_DIR$/bridge/pom.xml" />
+        <option value="$PROJECT_DIR$/sdb/pom.xml" />
+        <option value="$PROJECT_DIR$/blog/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -262,13 +248,26 @@
           <item name="bridge" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="coffee" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="models" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="models" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="43" />
-    <option name="y" value="242" />
+    <option name="x" value="42" />
+    <option name="y" value="241" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -278,6 +277,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,43 +288,32 @@
             <path>
               <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffee" type="462c0819:PsiDirectoryNode" />
-              <item name="initial" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="bridge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffee" type="462c0819:PsiDirectoryNode" />
               <item name="initial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffee" type="462c0819:PsiDirectoryNode" />
-              <item name="initial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffee" type="462c0819:PsiDirectoryNode" />
-              <item name="initial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffee" type="462c0819:PsiDirectoryNode" />
-              <item name="initial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeeinitial" type="462c0819:PsiDirectoryNode" />
+              <item name="sdb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,7 +324,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546706901390" />
-    <property name="last_opened_file_path" value="D:/DRA Cloud/dra" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -407,6 +396,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CoffeeBlogApplication" />
+      <item itemvalue="Spring Boot.CoffeeInitialApplication" />
+      <item itemvalue="Spring Boot.CoffeeBridgeApplication" />
+      <item itemvalue="Spring Boot.ShadowDataBaseApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ShadowDataBaseApplication" />
@@ -442,6 +437,7 @@
       <workItem from="1546112605010" duration="593000" />
       <workItem from="1546189256218" duration="8262000" />
       <workItem from="1546697707525" duration="5319000" />
+      <workItem from="1546960168466" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="add dumb db">
       <created>1546024627115</created>
@@ -468,13 +464,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74811000" />
+    <option name="totallyTimeSpent" value="75058000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26510066" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26912752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -490,14 +486,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3272727" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.33994335" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5023585" side_tool="true" weight="0.23154363" />
+      <window_info anchor="right" id="LuaJ" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -508,10 +505,14 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5023585" side_tool="true" weight="0.23154363" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add dumb db" />
@@ -577,13 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/javax/annotation/PostConstruct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/javax/annotation/PostConstruct.java" />
     <entry file="file://$PROJECT_DIR$/bridge-connector/src/main/java/dom/dechesterv/bridgeconnector/annotation/ConnectorToBridge.java" />
     <entry file="file://$PROJECT_DIR$/bridge-connector/src/main/java/dom/dechesterv/bridgeconnector/annotation/Connector.java" />
     <entry file="file://$PROJECT_DIR$/bridge-connector/src/main/java/dom/dechesterv/bridgeconnector/BridgeConnectorApplication.java" />
@@ -597,9 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,42 +599,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/InetAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10217">
-          <caret line="680" column="24" selection-start-line="680" selection-start-column="24" selection-end-line="680" selection-end-column="24" />
-          <folding>
-            <element signature="e#24456#24457#0" expanded="true" />
-            <element signature="e#24484#24485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/Inet4Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5083">
-          <caret line="327" column="22" selection-start-line="327" selection-start-column="22" selection-end-line="327" selection-end-column="22" />
-          <folding>
-            <element signature="e#10941#10942#0" expanded="true" />
-            <element signature="e#10997#10998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/InetAddress.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/Inet4Address.java" />
     <entry file="file://$PROJECT_DIR$/coffee-bridge/src/main/java/dom/dechesterv/coffeebridge/utils/CheckUtils.java" />
     <entry file="file://$PROJECT_DIR$/sdb/src/main/java/dom/dechesterv/shadowdatabase/controller/HealthCheckController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,28 +616,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Enum.java" />
     <entry file="file://$PROJECT_DIR$/bridge/src/main/java/dom/dechesterv/coffeebridge/controllers/ComponentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,9 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,9 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,9 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,66 +690,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coffee-blog/coffee-blog.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/coffee-blog/coffee-blog.iml" />
     <entry file="file://$PROJECT_DIR$/bridge/src/main/java/dom/dechesterv/coffeebridge/services/ComponentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#2772#2773#0" expanded="true" />
-            <element signature="e#2870#2871#0" expanded="true" />
-            <element signature="e#3899#3900#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/pom.xml">
+    <entry file="file://$PROJECT_DIR$/blog/src/test/java/dom/dechesterv/coffeeblog/CoffeeBlogApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/src/main/java/dom/dechesterv/coffeeblog/CoffeeBlogApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bridge/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/initial/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -827,10 +725,10 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/src/test/java/dom/dechesterv/coffeeblog/CoffeeBlogApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/blog/src/main/java/dom/dechesterv/coffeeblog/CoffeeBlogApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -838,6 +736,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bridge/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initial/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -21,14 +21,14 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="blog" options="-parameters" />
-      <module name="bridge" options="-parameters" />
+      <module name="blog" options="" />
+      <module name="bridge" options="" />
       <module name="bridge-connector" options="-parameters" />
       <module name="coffee-connector" options="-parameters" />
       <module name="coffee-utils" options="-parameters" />
-      <module name="initial" options="-parameters" />
-      <module name="models" options="-parameters" />
-      <module name="sdb" options="-parameters" />
+      <module name="initial" options="" />
+      <module name="models" options="" />
+      <module name="sdb" options="" />
     </option>
   </component>
 </project>
